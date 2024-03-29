@@ -45,10 +45,3 @@ body{
 .slider:hover {
     opacity: 1;
 }
-
-.slider::-webkit-slider-thumb {
-    width: 25px;
-    height: 25px;
-    background: #04AA6D;
-    cursor: pointer;
-}

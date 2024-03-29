@@ -1,7 +1,6 @@
 
 const GRIDSIDE = 600;
 let squaresPerSide = 16
-
 const sketchArea = document.querySelector("#sketch-area");
 
 const sliderContainer = document.querySelector("#slider-container");
@@ -15,7 +14,7 @@ sketchArea.style.width =
 sketchArea.style.height = `${GRIDSIDE}px`;
 
 function setBackgroundColor() {
-    this.style.backgroundColor = "black";
+    this.style.backgroundColor = "green";
 }
 
 const createGridCells = (squaresPerSide) => {
